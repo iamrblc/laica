@@ -1,0 +1,170 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 43.499319727891155 
+tiers? <exists> 
+size = 1 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "silences" 
+        xmin = 0 
+        xmax = 43.499319727891155 
+        intervals: size = 39 
+        intervals [1]:
+            xmin = 0 
+            xmax = 8.344164266711863 
+            text = "" 
+        intervals [2]:
+            xmin = 8.344164266711863 
+            xmax = 8.706252517621872 
+            text = "growl" 
+        intervals [3]:
+            xmin = 8.706252517621872 
+            xmax = 10.387530389763514 
+            text = "" 
+        intervals [4]:
+            xmin = 10.387530389763514 
+            xmax = 10.542070562014333 
+            text = "growl" 
+        intervals [5]:
+            xmin = 10.542070562014333 
+            xmax = 10.80726912921018 
+            text = "" 
+        intervals [6]:
+            xmin = 10.80726912921018 
+            xmax = 11.307139809823939 
+            text = "growl" 
+        intervals [7]:
+            xmin = 11.307139809823939 
+            xmax = 12.517165551768635 
+            text = "" 
+        intervals [8]:
+            xmin = 12.517165551768635 
+            xmax = 12.675521530741696 
+            text = "growl" 
+        intervals [9]:
+            xmin = 12.675521530741696 
+            xmax = 13.98012422473195 
+            text = "" 
+        intervals [10]:
+            xmin = 13.98012422473195 
+            xmax = 14.417034094428708 
+            text = "growl" 
+        intervals [11]:
+            xmin = 14.417034094428708 
+            xmax = 16.979161174811257 
+            text = "" 
+        intervals [12]:
+            xmin = 16.979161174811257 
+            xmax = 17.345478620146533 
+            text = "growl" 
+        intervals [13]:
+            xmin = 17.345478620146533 
+            xmax = 17.803375426815624 
+            text = "" 
+        intervals [14]:
+            xmin = 17.803375426815624 
+            xmax = 18.12390319148399 
+            text = "growl" 
+        intervals [15]:
+            xmin = 18.12390319148399 
+            xmax = 21.047444443423196 
+            text = "" 
+        intervals [16]:
+            xmin = 21.047444443423196 
+            xmax = 21.88119821223317 
+            text = "growl" 
+        intervals [17]:
+            xmin = 21.88119821223317 
+            xmax = 23.221507452725525 
+            text = "" 
+        intervals [18]:
+            xmin = 23.221507452725525 
+            xmax = 24.01519525095195 
+            text = "growl" 
+        intervals [19]:
+            xmin = 24.01519525095195 
+            xmax = 25.155555582185176 
+            text = "" 
+        intervals [20]:
+            xmin = 25.155555582185176 
+            xmax = 25.72029497707706 
+            text = "growl" 
+        intervals [21]:
+            xmin = 25.72029497707706 
+            xmax = 27.092567721154285 
+            text = "" 
+        intervals [22]:
+            xmin = 27.092567721154285 
+            xmax = 27.754610187463346 
+            text = "growl" 
+        intervals [23]:
+            xmin = 27.754610187463346 
+            xmax = 29.319153919193813 
+            text = "" 
+        intervals [24]:
+            xmin = 29.319153919193813 
+            xmax = 29.569089259500693 
+            text = "growl" 
+        intervals [25]:
+            xmin = 29.569089259500693 
+            xmax = 31.579179389137202 
+            text = "" 
+        intervals [26]:
+            xmin = 31.579179389137202 
+            xmax = 32.43010428819727 
+            text = "growl" 
+        intervals [27]:
+            xmin = 32.43010428819727 
+            xmax = 33.738209682334706 
+            text = "" 
+        intervals [28]:
+            xmin = 33.738209682334706 
+            xmax = 33.90419727475225 
+            text = "growl" 
+        intervals [29]:
+            xmin = 33.90419727475225 
+            xmax = 35.396981015405494 
+            text = "" 
+        intervals [30]:
+            xmin = 35.396981015405494 
+            xmax = 35.83007507838001 
+            text = "growl" 
+        intervals [31]:
+            xmin = 35.83007507838001 
+            xmax = 37.329512227444205 
+            text = "" 
+        intervals [32]:
+            xmin = 37.329512227444205 
+            xmax = 37.82465986394558 
+            text = "growl" 
+        intervals [33]:
+            xmin = 37.82465986394558 
+            xmax = 39.65158748128231 
+            text = "" 
+        intervals [34]:
+            xmin = 39.65158748128231 
+            xmax = 40.02744444342319 
+            text = "growl" 
+        intervals [35]:
+            xmin = 40.02744444342319 
+            xmax = 40.67803948956553 
+            text = "" 
+        intervals [36]:
+            xmin = 40.67803948956553 
+            xmax = 40.9813961239838 
+            text = "growl" 
+        intervals [37]:
+            xmin = 40.9813961239838 
+            xmax = 42.39148104669438 
+            text = "" 
+        intervals [38]:
+            xmin = 42.39148104669438 
+            xmax = 43.48280176706295 
+            text = "growl" 
+        intervals [39]:
+            xmin = 43.48280176706295 
+            xmax = 43.499319727891155 
+            text = "" 

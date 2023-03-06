@@ -1,0 +1,176 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 283.4 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "berci2014szeparacio - Start/End" 
+        xmin = 0 
+        xmax = 283.4 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 85.6 
+            text = "" 
+        intervals [2]:
+            xmin = 85.6 
+            xmax = 85.8 
+            text = "START" 
+        intervals [3]:
+            xmin = 85.8 
+            xmax = 272.4 
+            text = "" 
+        intervals [4]:
+            xmin = 272.4 
+            xmax = 272.6 
+            text = "END" 
+        intervals [5]:
+            xmin = 272.6 
+            xmax = 283.4 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "berci2014szeparacio - Start/End - Vocalization" 
+        xmin = 0 
+        xmax = 283.4 
+        intervals: size = 21 
+        intervals [1]:
+            xmin = 0 
+            xmax = 117.2 
+            text = "" 
+        intervals [2]:
+            xmin = 117.2 
+            xmax = 118.54441620051522 
+            text = "Whining" 
+        intervals [3]:
+            xmin = 118.54441620051522 
+            xmax = 138.8 
+            text = "" 
+        intervals [4]:
+            xmin = 138.8 
+            xmax = 140.10021805355257 
+            text = "Whining" 
+        intervals [5]:
+            xmin = 140.10021805355257 
+            xmax = 176.6 
+            text = "" 
+        intervals [6]:
+            xmin = 176.6 
+            xmax = 177.6 
+            text = "Whining" 
+        intervals [7]:
+            xmin = 177.6 
+            xmax = 193.2 
+            text = "" 
+        intervals [8]:
+            xmin = 193.2 
+            xmax = 195.2 
+            text = "Whining" 
+        intervals [9]:
+            xmin = 195.2 
+            xmax = 202.6 
+            text = "" 
+        intervals [10]:
+            xmin = 202.6 
+            xmax = 203.4 
+            text = "Whining" 
+        intervals [11]:
+            xmin = 203.4 
+            xmax = 213.6 
+            text = "" 
+        intervals [12]:
+            xmin = 213.6 
+            xmax = 215.2 
+            text = "Whining" 
+        intervals [13]:
+            xmin = 215.2 
+            xmax = 233 
+            text = "" 
+        intervals [14]:
+            xmin = 233 
+            xmax = 235.2 
+            text = "Whining" 
+        intervals [15]:
+            xmin = 235.2 
+            xmax = 243.6 
+            text = "" 
+        intervals [16]:
+            xmin = 243.6 
+            xmax = 245.8 
+            text = "Whining" 
+        intervals [17]:
+            xmin = 245.8 
+            xmax = 246 
+            text = "" 
+        intervals [18]:
+            xmin = 246 
+            xmax = 246.8 
+            text = "Whining" 
+        intervals [19]:
+            xmin = 246.8 
+            xmax = 260.6 
+            text = "" 
+        intervals [20]:
+            xmin = 260.6 
+            xmax = 262.2 
+            text = "Whining" 
+        intervals [21]:
+            xmin = 262.2 
+            xmax = 283.4 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "f0" 
+        xmin = 0 
+        xmax = 283.4 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 214.985 
+            text = "" 
+        intervals [2]:
+            xmin = 214.985 
+            xmax = 215.035 
+            text = "f0" 
+        intervals [3]:
+            xmin = 215.035 
+            xmax = 234.2275 
+            text = "" 
+        intervals [4]:
+            xmin = 234.2275 
+            xmax = 234.395 
+            text = "f0" 
+        intervals [5]:
+            xmin = 234.395 
+            xmax = 283.4 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "NLP" 
+        xmin = 0 
+        xmax = 283.4 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 214.985 
+            text = "" 
+        intervals [2]:
+            xmin = 214.985 
+            xmax = 215.035 
+            text = "" 
+        intervals [3]:
+            xmin = 215.035 
+            xmax = 234.2275 
+            text = "" 
+        intervals [4]:
+            xmin = 234.2275 
+            xmax = 234.395 
+            text = "" 
+        intervals [5]:
+            xmin = 234.395 
+            xmax = 283.4 
+            text = "" 
