@@ -7,16 +7,13 @@ import pickle
 import librosa
 import librosa.display
 
-from sklearn.preprocessing import StandardScaler
-
-import xgboost as xgb
-
 # Load the trained model
 filename = '/Users/rblc/code/iamrblc/laica/xgboost_model.pkl'
 model = pickle.load(open(filename, 'rb'))
+scaler = pickle.load(open('/Users/rblc/code/iamrblc/laica/scaler.pkl', 'rb'))
 
 # Provide path to new audio file
-new_audio = '/Users/rblc/code/iamrblc/laica/audio/snippets_from_yt/chiuahuagrowl.mp3'
+new_audio = '/Users/rblc/code/iamrblc/laica/audio/snippets_from_yt/deep_growl.wav'
 actual_label = 'growl'
 
 # Load the audio file
@@ -86,8 +83,7 @@ for column_name in df.columns:
         df = df.drop(columns = column_name)
 
 # Add scaler
-scaler = StandardScaler()
-df = pd.DataFrame(scaler.fit_transform(df), columns=df.columns)
+df = pd.DataFrame(scaler.transform(df), columns=df.columns)
 encoded_classes = {'bark': 0, 'growl': 1, 'pant': 2, 'whine': 3, 'yelp': 4}
 
 # Run the model on the new audio file
