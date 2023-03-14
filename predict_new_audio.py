@@ -1,23 +1,13 @@
-import os
+
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import random
 
 import pickle
 
 import librosa
 import librosa.display
-from librosa.effects import time_stretch, pitch_shift
-import audiomentations as AA
-from audiomentations import Compose, AddGaussianNoise, TimeStretch, PitchShift, Shift
 
 from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import learning_curve
 
 import xgboost as xgb
 
@@ -25,8 +15,9 @@ import xgboost as xgb
 filename = '/Users/rblc/code/iamrblc/laica/xgboost_model.pkl'
 model = pickle.load(open(filename, 'rb'))
 
-new_audio = '/Users/rblc/code/iamrblc/laica/audio/snippets_test_set/bark_00060.wav'
-actual_label = 'bark'
+# Provide path to new audio file
+new_audio = '/Users/rblc/code/iamrblc/laica/audio/snippets_from_yt/chiuahuagrowl.mp3'
+actual_label = 'growl'
 
 # Load the audio file
 audio, sr = librosa.load(new_audio)
@@ -94,6 +85,9 @@ for column_name in df.columns:
         df = calculate_nested_stats(df, column_name)
         df = df.drop(columns = column_name)
 
+# Add scaler
+scaler = StandardScaler()
+df = pd.DataFrame(scaler.fit_transform(df), columns=df.columns)
 encoded_classes = {'bark': 0, 'growl': 1, 'pant': 2, 'whine': 3, 'yelp': 4}
 
 # Run the model on the new audio file
